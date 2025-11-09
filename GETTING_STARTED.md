@@ -50,7 +50,7 @@ az login
 
 **Step 2:** Navigate and configure
 ```bash
-cd /Users/atul/Downloads/AzureVM-Apache2-MYSQL/terraform
+cd /Users/akashu96/Downloads/AzureVM-Apache2-MYSQL/terraform
 cp terraform.tfvars.example terraform.tfvars
 nano terraform.tfvars  # Edit with your values
 ```
@@ -102,7 +102,7 @@ az login
 
 **Step 2:** Create the VM
 ```bash
-cd /Users/atul/Downloads/AzureVM-Apache2-MYSQL/scripts
+cd /Users/akashu96/Downloads/AzureVM-Apache2-MYSQL/scripts
 ./create_azure_vm.sh
 # Note the PUBLIC_IP from the output
 ```

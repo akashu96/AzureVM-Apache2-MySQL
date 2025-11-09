@@ -25,9 +25,9 @@ terraform plan
 terraform apply
 
 
-// fork repo >> https://github.com/atulkamble/AzureVM-Apache2-MYSQL.git
+// fork repo >> https://github.com/akashu96/AzureVM-Apache2-MYSQL.git
 
-git clone https://github.com/atulkamble/AzureVM-Apache2-MYSQL.git
+git clone https://github.com/akashu96/AzureVM-Apache2-MYSQL.git
 cd AzureVM-Apache2-MYSQ
 cd terraform 
 
@@ -54,7 +54,7 @@ terraform destroy
 
 
 
-git clone https://github.com/atulkamble/WebAppDB.git
+git clone https://github.com/akashu96/WebAppDB.git
 cd WebAppDB
 
 terraform init 
@@ -90,7 +90,7 @@ USE webdb
 SHOW TABLES;
 SELECT *FROM users;
 
-INSERT INTO users (name, email, created_at) values ('Atul Kamble', 'atul_kamble@hotmail.com', '2025-11-02 03:00:31');
+INSERT INTO users (name, email, created_at) values ('Ashutosh Kaushal', 'test@hotmail.com', '2025-11-02 03:00:31');
 
 exit 
 
